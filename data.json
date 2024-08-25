@@ -4,11 +4,11 @@
   },
 
   "information": {
-    "name": "Yoon Jongwoo",
+    "name": "윤종우",
     "contact": [
       { "id": 0, "name": "Email", "href": "pojangkimpop@gmail.com", "isEmail": true },
       { "id": 1, "name": "Github", "href": "https://www.github.com/pojangkimpop" },
-      { "id": 2, "name": "Blog", "href": "https://www.naver.com" }
+      { "id": 2, "name": "Blog", "href": "https://copper-draw-2dd.notion.site/25a3bb70675f448a862151273092271a" }
     ]
   },
 
@@ -25,12 +25,22 @@
     {
       "id": 0,
       "name": "StandByBaby",
-      "description": "첫 팀 프로젝트",
+      "description": "한양대학교 · LG 주최 IC-PBL 참가 프로젝트",
       "webUrl": "릴리즈 없음",
       "repoUrl": "https://github.com/Stand-By-Baby/StandByBaby",
       "isTeam": true,
       "period": ["2022.08", "2022.12"],
       "stack": ["React.js", "JavaScript", "Firebase", "CSS"]
+    },
+    {
+      "id": 1,
+      "name": "개인 프로젝트",
+      "description": "예정",
+      "webUrl": "링크 예정",
+      "repoUrl": "링크 예정",
+      "isTeam": false,
+      "period": ["날짜", "날짜"],
+      "stack": ["JavaScript", "HTML/CSS"]
     }
   ],
 
@@ -39,7 +49,7 @@
       "id": 0,
       "name": "StandByBaby",
       "period": ["2022.08", "2022.12"],
-      "description": "한양대학교 & LG 주최 IC-PBL 프로젝트 대회"
+      "description": "한양대학교 · LG 주최 IC-PBL 프로젝트 대회"
     }
   ],
   "education": [
@@ -65,8 +75,8 @@
       "id": 0,
       "name": "우수상",
       "date": "2022.12",
-      "organizer": "한양대학교 & LG",
-      "description": "'StandByBaby' 프로젝트 "
+      "organizer": "한양대학교 · LG",
+      "description": "프로젝트명: 'StandByBaby'"
     }
   ]
 }
