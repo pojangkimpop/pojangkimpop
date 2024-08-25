@@ -3,9 +3,6 @@ import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 
-/**
- * @description SEO를 위해 본인의 정보로 수정해주세요.
- */
 const DEFAULT_SEO = {
   title: "윤종우 | Back-End Dev",
   description: "안녕하세요, 백엔드 개발자 윤종우입니다.",
