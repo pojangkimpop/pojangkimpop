@@ -41,7 +41,8 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "webpack": "^5.94.0"
   },
   "homepage": "https://pojangkimpop.github.io/"
 }
