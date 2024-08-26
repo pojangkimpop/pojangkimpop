@@ -13,8 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        // 사용하고자 하는 폰트를 추가
+        inter: ['Inter', 'sans-serif'],
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

@@ -104,13 +104,17 @@ const getImgSrc = async ({
   section: string;
   item: InformationProps | ProjectProps | WorkExperienceProps;
 }) => {
-  const imgSrc = `/images/${section}/${"id" in item ? item.id : "profile"}.png`;
+  // 'id'가 '0'인지 확인하고, 경로를 설정합니다.
+  const imgSrc = `/images/${section}/0.png`;
   const filePath = path.join(process.cwd(), "public", imgSrc);
+
   try {
     await fs.stat(filePath);
     return { ...item, imgSrc: imgSrc };
   } catch {
-    console.log("no img");
-    return item;
+    console.log("no img", filePath);
+    // 파일이 없을 때 사용할 기본 이미지 경로를 설정합니다.
+    return { ...item, imgSrc: '/images/default-profile.png' };
   }
 };
+
