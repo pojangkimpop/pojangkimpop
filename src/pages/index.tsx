@@ -1,6 +1,6 @@
+// pages/index.tsx
 import fsPromises, * as fs from "fs/promises";
 import path from "path";
-
 import { NextPage } from "next";
 
 import Activity from "@/components/Activity";
@@ -13,8 +13,8 @@ import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
 // import ScrollProgress from "@/components/ScrollProgress";
 import WorkExperience from "@/components/WorkExperience";
-import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
 import Award from "@/components/Award";
+import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
 
 const Home: NextPage<DataProps> = ({
   resumeTitle,
